@@ -320,7 +320,7 @@ class NBClassifier{
             model.test(test);
             
             // System.out.println(model);
-            // model.mostPredictiveFeatures(10);
+            model.mostPredictiveFeatures(10);
         } catch (Exception e){
             e.printStackTrace();
         }
